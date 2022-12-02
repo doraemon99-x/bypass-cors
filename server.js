@@ -8,7 +8,7 @@ const port = process.env.PORT || 8080;
 corsProxy.createServer({
     originWhitelist: [
         'http://localhost:3000',
-        'https://too-collins-weather-app.herokuapp.com/'
+        'https://cors78.tipiku.my.id/'
     ],
     requireHeader: ['origin', 'x-requested-with'],
     removeHeaders: ['cookie', 'cookie2']
